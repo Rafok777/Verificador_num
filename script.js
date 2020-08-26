@@ -56,3 +56,8 @@ function finalizar() {
     result.innerHTML += `<p>O menor número cadastrado é ${menor}.</p>`
     result.innerHTML += `<p>A média dos números castrados é ${soma/valores.length}.</p>`
 }
+
+function reset() {
+    valores = []
+    lista.innerHTML = ''
+}
